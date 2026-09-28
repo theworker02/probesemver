@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/probesemver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Probe HTML/Markdown semver fragments safely for docs pipelines.",
+  "bin": {
+    "probesemver": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/probesemver.git"
+  },
+  "homepage": "https://theworker02.github.io/probesemver/",
+  "keywords": [
+    "probe",
+    "semver",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
